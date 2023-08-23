@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: ImYrS/aliyun-auto-signin@main
         with:
-          REFRESH_TOKENS: ALIYUNPAN_SECRET.89ec2bd0930d4137b0dac11abd4d5dca
-          GP_TOKEN: ALIYUNPAN_SECRET.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
+          REFRESH_TOKENS: aliyunpan_secret_action.89ec2bd0930d4137b0dac11abd4d5dca
+          GP_TOKEN: aliyunpan_secret_action.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
           PUSH_TYPES: ''
           DO_NOT_REWARD: 'false'
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
